@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.dishdiary.features.home.view.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="com.example.dishdiary.features.explore.view.ExploreFragment"
+        android:label="@string/title_explore"
+        tools:layout="@layout/fragment_explore" >
+        <action
+            android:id="@+id/action_navigation_explore_to_navigation_meallist"
+            app:destination="@id/navigation_meallist" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_saved"
+        android:name="com.example.dishdiary.features.favourites.view.FavouritesFragment"
+        android:label="@string/title_favourites"
+        tools:layout="@layout/fragment_saved" >
+        <action
+            android:id="@+id/action_navigation_saved_to_navigation_meallist"
+            app:destination="@id/navigation_meallist" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_plan"
+        android:name="com.example.dishdiary.features.calendar.view.CalendarFragment"
+        android:label="@string/title_plan"
+        tools:layout="@layout/fragment_calendar">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_meallist"
+        android:name="com.example.dishdiary.features.meal_list.view.MealListFragment"
+        android:label="fragment_meallist"
+        tools:layout="@layout/fragment_meallist" />
+</navigation>
