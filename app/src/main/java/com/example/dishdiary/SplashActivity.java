@@ -26,6 +26,6 @@ public class SplashActivity extends AppCompatActivity {
             Intent intent = new Intent(SplashActivity.this, MainActivity.class);
             startActivity(intent);
             finish(); // Close the splash activity
-        }, 3500); // Duration in milliseconds
+        }, 3100); // Duration in milliseconds
     }
 }
