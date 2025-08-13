@@ -1,4 +1,4 @@
-# 🍽️ ChefBuddy - Android Appp
+# 🍽️ ChefBuddy - Android Apppp
 
 Chef Buddy is your personal meal planning assistant – built with Java, MVP architecture, and TheMealDB API.
 
