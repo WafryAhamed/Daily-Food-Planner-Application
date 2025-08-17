@@ -13,7 +13,7 @@ import java.util.List;
 public class MealLocalDataSourceImpl implements MealLocalDataSource {
 
     private static MealLocalDataSource MealLocalDataSource = null;
-    // Static variable to hold the single instance of the MealLocalDataSource
+    // Static variable to hold the single instance of the MealLocalDataSource.
 
     private Context context;
     private AppDataBase db;
