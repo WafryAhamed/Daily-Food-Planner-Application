@@ -1,6 +1,6 @@
 # 🍽️ ChefBuddy - Android App
 
-Chef Buddy is is your personal meal planning assistant – built with Java, MVP architecture, and TheMealDB API.
+Chef Buddy is your personal meal planning assistant – built with Java, MVP architecture, and TheMealDB API.
 
 Whether you're a busy student, a working parent, or simply someone who loves good food, **Chef Buddy helps you stay organized, save time, reduce food waste**, and make every meal delicious.
 
