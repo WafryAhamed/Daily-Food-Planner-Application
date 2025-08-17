@@ -8,7 +8,7 @@ import com.example.dishdiary.model.Meal;
 import java.util.List;
 
 public interface MealLocalDataSource {
-    // Meals Table is here
+    // Meals Table
     LiveData<List<Meal>> getStoredMeals();
     void insertMeal(Meal meal);
     void removeMeal(Meal meal);
