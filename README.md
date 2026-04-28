@@ -6,7 +6,7 @@ Whether you're a busy student, a working parent, or simply someone who loves goo
 
 
 
-## 🎯 Purpose
+<img width="1536" height="1024" alt="ChatGPT Image Apr 28, 2026, 07_49_20 AM" src="https://github.com/user-attachments/assets/521924d6-0e91-45ff-ba0d-c96b66933a6a" />
 
 Chef Buddy is designed to help you take control of your kitchen and plan your meals effortlessly.
 
